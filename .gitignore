@@ -1,0 +1,39 @@
+# Source code and app internals intentionally excluded from this showcase repository
+app.js
+data.js
+src/
+css/
+functions/
+workers/
+content/
+
+# Dependency and build files
+package.json
+package-lock.json
+node_modules/
+dist/
+build/
+.vite/
+
+# Cloudflare/internal configuration
+wrangler.toml
+_headers
+.dev.vars
+*.env
+.env
+.env.*
+kv/
+.kv/
+
+# Secrets and credentials
+*secret*
+*secrets*
+*.pem
+*.key
+*.crt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
