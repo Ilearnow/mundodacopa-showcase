@@ -1,6 +1,6 @@
 # Mundo da Copa 26
 
-Site independente para acompanhar a Copa do Mundo 2026 com calendário, classificação, estádios, convocações, simulador, blog editorial, notícias e atualização de placares em tempo real.
+Site independente para acompanhar a Copa do Mundo 2026 com calendário, classificação, estádios, convocações, simulador, Draft, Escudle, blog editorial, notícias e atualização de placares em tempo real.
 
 ## Repositório showcase
 
@@ -24,10 +24,16 @@ https://www.mundodacopa.site
 - Histórico das seleções em Copas anteriores
 - Dados por seleção: participações, títulos, melhor campanha, record geral, gols e artilheiros
 - Simulador da Copa com fase de grupos e mata-mata
+- Simulador respeita placares reais quando disponíveis, travando jogos já realizados
 - Compartilhamento de cenários do simulador por link
+- Draft Copa 2026: monte um XI com jogadores sorteados e tente vencer 8 jogos seguidos
+- Reposicionamento de jogadores aptos no Draft
+- Card PNG compartilhável do Draft
+- Escudle: jogo diário de adivinhar escudos das seleções, com histórico local
 - Blog editorial com guias, artigos e análises
 - Página de apoio ao projeto
 - Atualização de placares reais via infraestrutura própria/cache
+- Boas práticas públicas de segurança: HTTPS, headers de segurança, redirecionamento canônico e security.txt
 - Estado da navegação na URL para facilitar compartilhamento
 - Dark mode
 - Design responsivo para desktop, tablet e mobile
@@ -54,12 +60,13 @@ Visão em alto nível, sem detalhes sensíveis de infraestrutura:
 - Cloudflare Pages
 - Cloudflare Workers/Functions
 - KV/cache para dados de placares
+- Endpoints serverless para fluxos que exigem validação no servidor
 - Base histórica pública da Copa do Mundo para histórico das seleções
 - Playwright para testes end-to-end
 
 ## Status
 
-Projeto em desenvolvimento ativo, com funcionalidades principais implementadas e evolução contínua de conteúdo editorial, experiência mobile, placares e recursos interativos.
+Projeto em desenvolvimento ativo, com funcionalidades principais implementadas e evolução contínua de conteúdo editorial, experiência mobile, placares, jogos interativos e recursos de compartilhamento.
 
 ## Documentação
 
