@@ -1,6 +1,6 @@
 # Mundo da Copa 26
 
-Site independente para acompanhar a Copa do Mundo 2026 com calendário, classificação, estádios, convocações, simulador, Draft, Escudle, blog editorial, notícias e atualização de placares em tempo real.
+Site independente para acompanhar a Copa do Mundo 2026 com calendário, classificação, estádios, convocações, simulador, Draft, Escudle, blog editorial, notícias, placares em tempo real e estatísticas de partidas.
 
 ## Repositório showcase
 
@@ -14,8 +14,8 @@ https://www.mundodacopa.site
 
 ## Funcionalidades principais
 
-- Home com destaques, ticker de jogos e feed de notícias
-- Calendário da Copa com filtros e busca
+- Home com destaques, ticker de jogos, rotas limpas e feed de notícias
+- Calendário da Copa com filtros, busca e URLs compartilháveis
 - Visualização dos 104 jogos do torneio
 - Classificação por grupos, incluindo grupos A–L
 - Guia dos 16 estádios da Copa
@@ -29,10 +29,12 @@ https://www.mundodacopa.site
 - Draft Copa 2026: monte um XI com jogadores sorteados e tente vencer 8 jogos seguidos
 - Reposicionamento de jogadores aptos no Draft
 - Card PNG compartilhável do Draft
-- Escudle: jogo diário de adivinhar escudos das seleções, com histórico local
-- Blog editorial com guias, artigos e análises
+- Escudle: jogo diário de adivinhar escudos das seleções, com validação backend e histórico local
+- Blog editorial com guias, artigos, categorias, busca e paginação
 - Página de apoio ao projeto
 - Atualização de placares reais via infraestrutura própria/cache
+- Estatísticas de partidas em modal, incluindo placar, gols, eventos e dados do jogo quando disponíveis
+- Rotas amigáveis e metadados por página para melhor experiência de compartilhamento
 - Boas práticas públicas de segurança: HTTPS, headers de segurança, redirecionamento canônico e security.txt
 - Estado da navegação na URL para facilitar compartilhamento
 - Dark mode
@@ -61,6 +63,7 @@ Visão em alto nível, sem detalhes sensíveis de infraestrutura:
 - Cloudflare Workers/Functions
 - KV/cache para dados de placares
 - Endpoints serverless para fluxos que exigem validação no servidor
+- Worker agendado para atualização de placares e detalhes de partidas
 - Base histórica pública da Copa do Mundo para histórico das seleções
 - Playwright para testes end-to-end
 

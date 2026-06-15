@@ -8,7 +8,7 @@ Este repositório funciona como uma vitrine pública do produto. Ele apresenta a
 
 ## Proposta
 
-A proposta do Mundo da Copa 26 é oferecer uma experiência simples, rápida e organizada para acompanhar a Copa, combinando dados do torneio, conteúdo explicativo, notícias, placares e ferramentas interativas em um único lugar.
+A proposta do Mundo da Copa 26 é oferecer uma experiência simples, rápida e organizada para acompanhar a Copa, combinando dados do torneio, conteúdo explicativo, notícias, placares, estatísticas de partidas e ferramentas interativas em um único lugar.
 
 O projeto busca atender tanto quem acompanha futebol casualmente quanto usuários que desejam explorar grupos, seleções, estádios, jogos, possíveis cenários de classificação e caminho até as fases finais.
 
@@ -23,8 +23,8 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 
 ## O que o site oferece
 
-- Página inicial com destaques, ticker de jogos e notícias
-- Calendário da Copa do Mundo 2026 com filtros e busca
+- Página inicial com destaques, ticker de jogos, notícias e rotas amigáveis
+- Calendário da Copa do Mundo 2026 com filtros, busca e estado compartilhável por URL
 - Visualização dos 104 jogos do torneio
 - Classificação por grupos, incluindo grupos A–L
 - Guia dos 16 estádios da Copa
@@ -37,12 +37,14 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 - Draft Copa 2026, no qual o usuário monta um XI com jogadores sorteados e tenta vencer 8 jogos seguidos
 - Reposicionamento de jogadores aptos no Draft, com interface guiada por posições compatíveis
 - Compartilhamento do Draft por card PNG
-- Escudle, jogo diário de adivinhar escudos de seleções com tentativas limitadas e histórico local
-- Blog editorial com guias, artigos, categorias, busca e paginação
+- Escudle, jogo diário de adivinhar escudos de seleções com tentativas limitadas, validação backend e histórico local
+- Blog editorial com guias, artigos, categorias, busca, paginação e páginas otimizadas para compartilhamento
 - Dark mode
 - Experiência responsiva para desktop, tablet e mobile
 - Atualização de placares reais via infraestrutura própria/cache
+- Estatísticas de partidas em modal, incluindo gols, eventos e dados do jogo quando disponíveis
 - Estado da navegação na URL para facilitar compartilhamento de filtros e telas
+- Rotas limpas com metadados por página para navegação e prévias mais claras
 - Medidas públicas de confiança e segurança, como HTTPS, headers de segurança, domínio canônico e security.txt
 
 ## Diferenciais
@@ -54,7 +56,7 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 - Jogos próprios complementares, como Draft e Escudle, com foco em retenção e compartilhamento
 - Guia visual dos estádios com suporte a mapa interativo
 - Consulta contextual de histórico das seleções diretamente na área de grupos
-- Estrutura preparada para acompanhar resultados reais durante a competição
+- Estrutura preparada para acompanhar resultados reais e detalhes de partidas durante a competição
 - Separação entre experiência pública do usuário e validações executadas em backend quando necessário
 - Interface pensada para acesso rápido em diferentes dispositivos
 - Testes end-to-end cobrindo fluxos principais do produto
