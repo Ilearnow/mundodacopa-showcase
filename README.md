@@ -55,6 +55,16 @@ https://www.mundodacopa.site
 | 8 a 0 / Draft | ![8 a 0](assets/screenshots/8a0.png) |
 | Blog | ![Blog](assets/screenshots/blog.png) |
 
+## Jogos interativos
+
+### Escudle
+
+Jogo diário de adivinhação de escudos. A cada rodada, um escudo de seleção é exibido com um filtro que reduz o número de candidatas possíveis. O jogador tem até 6 tentativas para acertar qual é a seleção, com dicas visuais progressivas (continente, cores, detalhes do escudo). O palpite é validado no backend para evitar consulta antecipada à resposta, e o progresso do dia fica salvo localmente, incentivando visitas diárias.
+
+### 8 a 0 / Draft
+
+Monte seu XI ideal com jogadores sorteados aleatoriamente e enfrente 8 partidas seguidas. A cada jogo, o time adversário evolui, e o jogador pode reposicionar atletas aptos dentro de posições compatíveis. O objetivo é vencer as 8 rodadas — um placar de 8 a 0 contra a máquina. O resultado final pode ser compartilhado como um card PNG estilizado.
+
 ## Tecnologias usadas
 
 Visão em alto nível, sem detalhes sensíveis de infraestrutura:
