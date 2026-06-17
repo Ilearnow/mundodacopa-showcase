@@ -48,8 +48,11 @@ https://www.mundodacopa.site
 | Calendário | ![Calendário](assets/screenshots/calendario.png) |
 | Classificação | ![Classificação](assets/screenshots/classificacao.png) |
 | Estádios | ![Estádios](assets/screenshots/estadios.png) |
+| Convocações | ![Convocações](assets/screenshots/convocacoes.png) |
 | Histórico das seleções | ![Histórico das seleções](assets/screenshots/historico-selecoes.png) |
 | Simulador | ![Simulador](assets/screenshots/simulador.png) |
+| Escudle | ![Escudle](assets/screenshots/escudle.png) |
+| 8 a 0 / Draft | ![8 a 0](assets/screenshots/8a0.png) |
 | Blog | ![Blog](assets/screenshots/blog.png) |
 
 ## Tecnologias usadas
