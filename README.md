@@ -1,6 +1,6 @@
 # Mundo da Copa 26
 
-Site independente para acompanhar a Copa do Mundo 2026 com calendário, classificação, estádios, convocações, simulador, Draft, Escudle, blog editorial, notícias, placares em tempo real e estatísticas de partidas.
+Site independente para acompanhar a Copa do Mundo 2026 com calendário, classificação, estádios, convocações, simulador, Draft, Escudle, Futlike, blog editorial, notícias, placares em tempo real e estatísticas de partidas.
 
 ## Repositório showcase
 
@@ -30,6 +30,7 @@ https://www.mundodacopa.site
 - Reposicionamento de jogadores aptos no Draft
 - Card PNG compartilhável do Draft
 - Escudle: jogo diário de adivinhar escudos das seleções, com validação backend e histórico local
+- Futlike: jogo estilo roguelite/manager com seleções desbloqueáveis, tiers, mapa de eventos, XP, energia, atributos e partidas simuladas
 - Blog editorial com guias, artigos, categorias, busca e paginação
 - Página de apoio ao projeto
 - Atualização de placares reais via infraestrutura própria/cache
@@ -52,10 +53,23 @@ https://www.mundodacopa.site
 | Histórico das seleções | ![Histórico das seleções](assets/screenshots/historico-selecoes.png) |
 | Simulador | ![Simulador](assets/screenshots/simulador.png) |
 | Escudle | ![Escudle](assets/screenshots/escudle.png) |
+| Futlike — progresso | ![Futlike progresso](assets/screenshots/futlike.webp) |
+| Futlike — mapa | ![Futlike mapa](assets/screenshots/futlike2.webp) |
+| Futlike — partida | ![Futlike partida](assets/screenshots/futlike3.webp) |
 | 8 a 0 / Draft | ![8 a 0](assets/screenshots/8a0.png) |
 | Blog | ![Blog](assets/screenshots/blog.png) |
 
+## Novidades recentes
+
+- **Futlike** entrou no showcase como novo jogo interativo do projeto, com progressão, tiers, mapa de eventos e simulação de partidas.
+- O showcase agora destaca melhor o conjunto de experiências de retenção: Escudle, Draft/8 a 0 e Futlike.
+- A documentação pública segue sem expor código-fonte, regras internas ou detalhes sensíveis de infraestrutura.
+
 ## Jogos interativos
+
+### Futlike
+
+Jogo estilo roguelite/manager em que o usuário escolhe uma seleção, avança por um mapa de eventos e tenta evoluir durante uma campanha. A experiência combina seleções desbloqueáveis por tier, progresso persistente, XP, energia, atributos, inventário, eventos especiais e partidas simuladas com relatório de gols, cartões e pressão minuto a minuto.
 
 ### Escudle
 

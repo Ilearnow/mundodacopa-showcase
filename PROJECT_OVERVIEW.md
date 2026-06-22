@@ -8,7 +8,7 @@ Este repositório funciona como uma vitrine pública do produto. Ele apresenta a
 
 ## Proposta
 
-A proposta do Mundo da Copa 26 é oferecer uma experiência simples, rápida e organizada para acompanhar a Copa, combinando dados do torneio, conteúdo explicativo, notícias, placares, estatísticas de partidas e ferramentas interativas em um único lugar.
+A proposta do Mundo da Copa 26 é oferecer uma experiência simples, rápida e organizada para acompanhar a Copa, combinando dados do torneio, conteúdo explicativo, notícias, placares, estatísticas de partidas e ferramentas interativas, incluindo jogos como Escudle, Draft/8 a 0 e Futlike, em um único lugar.
 
 O projeto busca atender tanto quem acompanha futebol casualmente quanto usuários que desejam explorar grupos, seleções, estádios, jogos, possíveis cenários de classificação e caminho até as fases finais.
 
@@ -17,7 +17,7 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 - Torcedores interessados em acompanhar jogos, grupos e resultados
 - Pessoas buscando informações rápidas sobre calendário, estádios e seleções
 - Usuários que querem simular cenários da Copa
-- Usuários que buscam jogos rápidos relacionados ao torneio, como Draft e adivinhação de escudos
+- Usuários que buscam jogos rápidos relacionados ao torneio, como Draft, Futlike e adivinhação de escudos
 - Leitores interessados em conteúdo editorial sobre o torneio
 - Público mobile que precisa de uma experiência responsiva e direta
 
@@ -38,6 +38,7 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 - Reposicionamento de jogadores aptos no Draft, com interface guiada por posições compatíveis
 - Compartilhamento do Draft por card PNG
 - Escudle, jogo diário de adivinhar escudos de seleções com tentativas limitadas, validação backend e histórico local
+- Futlike, jogo estilo roguelite/manager com seleções desbloqueáveis, tiers, mapa de eventos, XP, energia, atributos, inventário e partidas simuladas
 - Blog editorial com guias, artigos, categorias, busca, paginação e páginas otimizadas para compartilhamento
 - Dark mode
 - Experiência responsiva para desktop, tablet e mobile
@@ -53,7 +54,7 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 - Organização clara das informações da Copa
 - Combinação de conteúdo editorial, notícias e recursos interativos
 - Simulador para explorar cenários do torneio
-- Jogos próprios complementares, como Draft e Escudle, com foco em retenção e compartilhamento
+- Jogos próprios complementares, como Draft, Escudle e Futlike, com foco em retenção e compartilhamento
 - Guia visual dos estádios com suporte a mapa interativo
 - Consulta contextual de histórico das seleções diretamente na área de grupos
 - Estrutura preparada para acompanhar resultados reais e detalhes de partidas durante a competição
@@ -66,6 +67,10 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 O conteúdo editorial do Mundo da Copa 26 deve priorizar clareza, utilidade e contexto. A ideia é publicar materiais que ajudem o público a entender melhor o torneio, as seleções, os grupos, os confrontos, o histórico das seleções, os estádios, os jogos interativos do site e os principais momentos da Copa.
 
 A abordagem editorial não busca se apresentar como fonte oficial, mas como um guia independente para torcedores e interessados no evento.
+
+## Novidades recentes
+
+O showcase passa a destacar **Futlike** como mais uma experiência interativa do ecossistema Mundo da Copa 26. A funcionalidade amplia a camada de jogos do produto, ao lado de Escudle e Draft/8 a 0, com progressão, desbloqueio de seleções por tier, mapa de eventos, atributos, XP, energia, inventário e partidas simuladas com eventos de jogo. Isso reforça retenção, recorrência e potencial de compartilhamento sem expor detalhes internos de implementação.
 
 
 ## Observação sobre o código-fonte
