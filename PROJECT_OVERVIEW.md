@@ -37,12 +37,12 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 - Draft Copa 2026, no qual o usuário monta um XI com jogadores sorteados e tenta vencer 8 jogos seguidos
 - Reposicionamento de jogadores aptos no Draft, com interface guiada por posições compatíveis
 - Compartilhamento do Draft por card PNG
-- Escudle, jogo diário de adivinhar escudos de seleções com tentativas limitadas, validação backend e histórico local
+- Escudle, jogo diário de adivinhar escudos de seleções com tentativas limitadas, validação no servidor e histórico local
 - Futlike, jogo estilo roguelite/manager com seleções desbloqueáveis, tiers, mapa de eventos, XP, energia, atributos, inventário e partidas simuladas
 - Blog editorial com guias, artigos, categorias, busca, paginação e páginas otimizadas para compartilhamento
 - Dark mode
 - Experiência responsiva para desktop, tablet e mobile
-- Atualização de placares reais via infraestrutura própria/cache
+- Atualização de placares reais por camada própria de dados públicos/cache
 - Estatísticas de partidas em modal, incluindo gols, eventos e dados do jogo quando disponíveis
 - Estado da navegação na URL para facilitar compartilhamento de filtros e telas
 - Rotas limpas com metadados por página para navegação e prévias mais claras
@@ -58,7 +58,7 @@ O projeto busca atender tanto quem acompanha futebol casualmente quanto usuário
 - Guia visual dos estádios com suporte a mapa interativo
 - Consulta contextual de histórico das seleções diretamente na área de grupos
 - Estrutura preparada para acompanhar resultados reais e detalhes de partidas durante a competição
-- Separação entre experiência pública do usuário e validações executadas em backend quando necessário
+- Separação entre experiência pública do usuário e validações executadas no servidor quando necessário
 - Interface pensada para acesso rápido em diferentes dispositivos
 - Testes end-to-end cobrindo fluxos principais do produto
 
@@ -72,6 +72,13 @@ A abordagem editorial não busca se apresentar como fonte oficial, mas como um g
 
 O showcase passa a destacar **Futlike** como mais uma experiência interativa do ecossistema Mundo da Copa 26. A funcionalidade amplia a camada de jogos do produto, ao lado de Escudle e Draft/8 a 0, com progressão, desbloqueio de seleções por tier, mapa de eventos, atributos, XP, energia, inventário e partidas simuladas com eventos de jogo. Isso reforça retenção, recorrência e potencial de compartilhamento sem expor detalhes internos de implementação.
 
+## Checklist público de atualização
+
+- Manter screenshots atuais das páginas principais, incluindo mobile
+- Descrever funcionalidades pelo valor para o usuário, não pela implementação interna
+- Evitar nomes de endpoints, rotinas, regras antifraude, chaves, tokens ou configurações reais
+- Manter disclaimer de independência e ausência de afiliação oficial
+- Registrar novidades sem expor código-fonte, dados privados ou detalhes operacionais
 
 ## Observação sobre o código-fonte
 

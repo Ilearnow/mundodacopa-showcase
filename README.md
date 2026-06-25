@@ -29,11 +29,11 @@ https://www.mundodacopa.site
 - Draft Copa 2026: monte um XI com jogadores sorteados e tente vencer 8 jogos seguidos
 - Reposicionamento de jogadores aptos no Draft
 - Card PNG compartilhável do Draft
-- Escudle: jogo diário de adivinhar escudos das seleções, com validação backend e histórico local
+- Escudle: jogo diário de adivinhar escudos das seleções, com validação no servidor e histórico local
 - Futlike: jogo estilo roguelite/manager com seleções desbloqueáveis, tiers, mapa de eventos, XP, energia, atributos e partidas simuladas
 - Blog editorial com guias, artigos, categorias, busca e paginação
 - Página de apoio ao projeto
-- Atualização de placares reais via infraestrutura própria/cache
+- Atualização de placares reais por camada própria de dados públicos/cache
 - Estatísticas de partidas em modal, incluindo placar, gols, eventos e dados do jogo quando disponíveis
 - Rotas amigáveis e metadados por página para melhor experiência de compartilhamento
 - Boas práticas públicas de segurança: HTTPS, headers de segurança, redirecionamento canônico e security.txt
@@ -46,6 +46,7 @@ https://www.mundodacopa.site
 | Tela | Screenshot |
 | --- | --- |
 | Home | ![Home](assets/screenshots/home.png) |
+| Mobile | ![Mobile](assets/screenshots/mobile.png) |
 | Calendário | ![Calendário](assets/screenshots/calendario.png) |
 | Classificação | ![Classificação](assets/screenshots/classificacao.png) |
 | Estádios | ![Estádios](assets/screenshots/estadios.png) |
@@ -73,30 +74,37 @@ Jogo estilo roguelite/manager em que o usuário escolhe uma seleção, avança p
 
 ### Escudle
 
-Jogo diário de adivinhação de escudos. A cada rodada, um escudo de seleção é exibido com um filtro que reduz o número de candidatas possíveis. O jogador tem até 6 tentativas para acertar qual é a seleção, com dicas visuais progressivas (continente, cores, detalhes do escudo). O palpite é validado no backend para evitar consulta antecipada à resposta, e o progresso do dia fica salvo localmente, incentivando visitas diárias.
+Jogo diário de adivinhação de escudos. A cada rodada, um escudo de seleção é exibido com um filtro que reduz o número de candidatas possíveis. O jogador tem até 6 tentativas para acertar qual é a seleção, com dicas visuais progressivas. O palpite é validado no servidor para evitar consulta antecipada à resposta, e o progresso do dia fica salvo localmente, incentivando visitas diárias.
 
 ### 8 a 0 / Draft
 
 Monte seu XI ideal com jogadores sorteados aleatoriamente e enfrente 8 partidas seguidas. A cada jogo, o time adversário evolui, e o jogador pode reposicionar atletas aptos dentro de posições compatíveis. O objetivo é vencer as 8 rodadas — um placar de 8 a 0 contra a máquina. O resultado final pode ser compartilhado como um card PNG estilizado.
 
-## Tecnologias usadas
+## Stack pública
 
 Visão em alto nível, sem detalhes sensíveis de infraestrutura:
 
 - JavaScript, HTML e CSS
 - Vite
 - Leaflet para mapa interativo
-- Cloudflare Pages
-- Cloudflare Workers/Functions
-- KV/cache para dados de placares
-- Endpoints serverless para fluxos que exigem validação no servidor
-- Worker agendado para atualização de placares e detalhes de partidas
+- Hospedagem estática/edge
+- Funções serverless para fluxos que exigem validação no servidor
+- Cache para dados públicos de placares e partidas
 - Base histórica pública da Copa do Mundo para histórico das seleções
-- Playwright para testes end-to-end
+- Testes end-to-end
 
 ## Status
 
 Projeto em desenvolvimento ativo, com funcionalidades principais implementadas e evolução contínua de conteúdo editorial, experiência mobile, placares, jogos interativos e recursos de compartilhamento.
+
+## Limites deste showcase
+
+Para manter o repositório seguro e próprio para divulgação pública, ficam fora deste showcase:
+
+- Código-fonte principal e estrutura interna da aplicação
+- Arquivos reais de configuração, deploy e ambiente
+- Chaves, tokens, secrets, endpoints privados e regras operacionais
+- Dados privados, automações internas e detalhes sensíveis de infraestrutura
 
 ## Documentação
 
